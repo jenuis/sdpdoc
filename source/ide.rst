@@ -59,7 +59,7 @@ The project's python interpreter should be changed by clicking the bottom-right 
 
 .. image:: pic/ide_pycharm_interpreter2.jpg
 
-Choose **Virtualenv**, tick **New**, and add "2" (can be any string, just added to skip the existing ".venv" directory). Open another terminal and type ``ml IMAS`` and ``which python3`` commands to get the python directory used for IMAS. Then manually select the python executable that is used for IMAS. Finally, tick  **Inherit global site-packages**, and click the **Create** button.
+Choose **Virtualenv**, tick **New**, and add "2" (can be any string, just added to skip the existing ".venv" directory) in the **Location** text box. Open another terminal and type ``ml IMAS`` and ``which python3`` commands to get the python directory used for IMAS. Then manually select the python executable that is used for IMAS. Finally, tick  **Inherit global site-packages**, and click the **OK** button.
 
 .. note::
     
@@ -67,7 +67,7 @@ Choose **Virtualenv**, tick **New**, and add "2" (can be any string, just added 
 
 .. image:: pic/ide_pycharm_main.jpg
 
-It is seen that the default virtual environment has been changed and the site-packages have been copied. Insert the two test lines for IMAS and click run buttion on the top title bar. The ``imas`` module can then be used right away.
+It is seen that the default virtual environment has been changed and the site-packages have been copied. Insert the two test lines for IMAS and click run button on the top title bar. The ``imas`` module can then be used right away.
 
 .. warning::
 
