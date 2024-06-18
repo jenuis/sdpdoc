@@ -29,7 +29,7 @@ Type ``imasdb -l`` to list all the available IMAS databases.
 
 .. code-block:: bash
 
-    [xiangliu@localhost ~]$ imasdb -h
+    [xiangliu@localhost ~] imasdb -h
     Create MDSPLUS specific directory tree <treename>/$IMAS_MAJOR_VERSION or 'default'.
 
     imasdb [command]                    create default tree or specify <command>.

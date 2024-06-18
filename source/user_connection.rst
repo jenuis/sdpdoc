@@ -36,7 +36,11 @@ If you are using Linux or MacOS, SSH connection with X11-forwarding enabled is r
 ---------------------------
 Nomachine (Offsite)
 ---------------------------
-If you are outside the institute LAN, you are unable to access SDP directly. You need to firstly connect to the institute's gate server by `Nomachine <https://downloads.nomachine.com/>`_. Then connect to the SDP server either by SSH (see :ref:`ssh connection (linux or macos)`) or RDP (``rdesktop`` command) in terminal.
+If you are outside the institute LAN, you are unable to access SDP directly. You need to firstly connect to the institute's gate server by `Nomachine <https://downloads.nomachine.com/>`_. 
+
+.. image:: pic/user_connection_remote_desktop_viewer.jpg
+
+As shown above, select **Remote Desktop Viewer** and follow similar settings of :ref:`MobaXterm (Windows)` for RDP connection. You may also connect to the SDP server either by SSH (see :ref:`ssh connection (linux or macos)`).
 
 .. warning:: 
     If the connection is unstable or you do not have the account to access the gate server, please use the direct connections mentioned above.

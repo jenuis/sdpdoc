@@ -11,7 +11,7 @@ SSH connection refused
 
 .. code-block:: bash
 
-    [~ login] ssh user@sdp.ipp.ac.cn
+    [xiangliu@localhost ~] ssh user@sdp.ipp.ac.cn
     ssh: connect to host sdp.ipp.ac.cn port 22: Connection refused
 
 Find the port number in the account creation email holding your account initial password. Then follow the instruction in :ref:`SSH Connection (Linux or MacOS)`

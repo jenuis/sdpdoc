@@ -20,6 +20,7 @@ The synthetic diagnostic platform (SDP) is the platform to host the synthetic di
    ide
    imas
    hpc
+   util
    
 
 .. Indices and tables
